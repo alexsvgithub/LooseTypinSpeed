@@ -8,7 +8,7 @@
     var leng = (a.split(" ").length );
 
       document.open();
-      document.write("<h1>speed is "+leng+" per minute sec</h1>");
+      document.write("<h1>speed is "+leng-1+" words per minute</h1>");
       document.close();
     setTimeout("location.reload(true);",3000);
       
